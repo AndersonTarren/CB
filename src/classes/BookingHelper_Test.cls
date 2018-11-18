@@ -13,7 +13,7 @@ public class BookingHelper_Test {
         CoverSongTestDataCreator.insertFullBooking();
         
         Test.startTest();
-            Id bookingId = CoverBandTestDataCreator.insertFullBooking();
+            Id bookingId = CoverSongTestDataCreator.insertFullBooking();
         Test.stopTest();
         
         //Get the playlist generated.
