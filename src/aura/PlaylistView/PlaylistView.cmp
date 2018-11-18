@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="PlaylistViewController">
+    <aura:attribute name="playlistData" type="Object[]" />
+    <aura:attribute name="duration" type="String" />
+    <aura:attribute name="columns" type="Object[]" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <div class="slds-box slds-theme_default">
+        <div class="slds-text-heading_large slds-p-bottom_medium">Playlist</div>
+        <lightning:datatable data="{! v.playlistData }" hideCheckboxColumn="true"
+        columns="{! v.columns }"
+        keyField="id" />
+        <div class="slds-text-heading_small slds-p-top_medium">Total Duration: {!v.duration}</div>
+    </div>
+</aura:component>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoverBand</fullName>
+    <description>Packaging</description>
+    <types>
+        <members>BookingHelper</members>
+        <members>BookingHelper_Test</members>
+        <members>CoverSongConstants</members>
+        <members>CoverSongTestDataCreator</members>
+        <members>EmailToSongSuggestion</members>
+        <members>EmailToSongSuggestion_Test</members>
+        <members>PlaylistHelper</members>
+        <members>PlaylistViewController</members>
+        <members>PlaylistViewController_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>BookingTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>PlaylistView</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Band_Manager</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Booking__c.Date__c</members>
+        <members>Booking__c.Duration__c</members>
+        <members>Booking__c.Playlist__c</members>
+        <members>Booking__c.Venue__c</members>
+        <members>Playlist__c.Date__c</members>
+        <members>SongToPlaylist__c.Playlist__c</members>
+        <members>SongToPlaylist__c.Song__c</members>
+        <members>Song__c.Minutes__c</members>
+        <members>Song__c.Original_Artist__c</members>
+        <members>Song__c.Rating__c</members>
+        <members>Song__c.Seconds__c</members>
+        <members>Song__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Booking__c</members>
+        <members>Playlist__c</members>
+        <members>SongToPlaylist__c</members>
+        <members>Song__c</members>
+        <members>Venue__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Booking__c</members>
+        <members>Playlist__c</members>
+        <members>Song__c</members>
+        <members>Venue__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Band_Manager_UtilityBar</members>
+        <members>Booking_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Booking__c-Booking Layout</members>
+        <members>Playlist__c-Playlist Layout</members>
+        <members>SongToPlaylist__c-SongToPlaylist Layout</members>
+        <members>Song__c-Song Layout</members>
+        <members>Venue__c-Venue Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Booking__c.All</members>
+        <members>Playlist__c.All</members>
+        <members>Song__c.All</members>
+        <members>Venue__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>43.0</version>
+</Package>
