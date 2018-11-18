@@ -3,7 +3,7 @@ public class PlaylistViewController_Test {
 
     private static testMethod void testGetPlaylist(){
         
-        CoverBandTestDataCreator.insertSongs(50);
+        CoverSongTestDataCreator.insertSongs(50);
         Id bookingId = CoverSongTestDataCreator.insertFullBooking();
         
         Test.startTest();
